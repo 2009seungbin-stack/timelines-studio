@@ -1,0 +1,27 @@
+{
+  "asset_id": "early_christian_basilica_church",
+  "name": "Early Christian basilica church",
+  "historical_period": "4th - 6th c. CE",
+  "geographic_region": "Roman Italy",
+  "category": "religious",
+  "polygon_count": 3304,
+  "material_list": [
+    "TL_Brick",
+    "TL_Dark",
+    "TL_Tile"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Timber-roofed nave and aisles with clerestory and apse, entrance on the short side; brick exterior. Dimensions estimated; no campanile (later addition in Italy).",
+  "references": [
+    "Santa Sabina, Rome (c. 422-432 CE)"
+  ],
+  "estimated_parts": [
+    "west door facade",
+    "aisles",
+    "clerestory",
+    "apse"
+  ],
+  "preview_image": "data/assets/early_christian_basilica_church/preview.jpg",
+  "file_path": "data/assets/early_christian_basilica_church/asset.blend"
+}

@@ -1,0 +1,32 @@
+{
+  "asset_id": "roman_horreum",
+  "name": "Warehouse (horreum)",
+  "historical_period": "1st - 5th c. CE",
+  "geographic_region": "Roman Italy",
+  "category": "commerce",
+  "polygon_count": 2273,
+  "material_list": [
+    "TL_BrickWin",
+    "TL_Dark",
+    "TL_ShopDark",
+    "TL_Shutter",
+    "TL_Terracotta",
+    "TL_Tile",
+    "TL_TimberDark",
+    "TL_Travertine",
+    "TL_TravertineSlabs"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Two-storey brick warehouse with inner court, shops on the quay side; dimensions estimated.",
+  "references": [
+    "Horrea Epagathiana et Epaphroditiana, Ostia (c. 145-150 CE)"
+  ],
+  "estimated_parts": [
+    "brick facades",
+    "inner court",
+    "tile roof"
+  ],
+  "preview_image": "data/assets/roman_horreum/preview.jpg",
+  "file_path": "data/assets/roman_horreum/asset.blend"
+}

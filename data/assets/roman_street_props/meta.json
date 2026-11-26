@@ -1,0 +1,34 @@
+{
+  "asset_id": "roman_street_props",
+  "name": "Street furniture (fountain, market stall, cart, amphorae, honorific statue)",
+  "historical_period": "1st - 5th c. CE",
+  "geographic_region": "Roman Italy",
+  "category": "props",
+  "polygon_count": 1341,
+  "material_list": [
+    "TL_AshlarGrey",
+    "TL_Bronze",
+    "TL_Cloth",
+    "TL_Marble",
+    "TL_Terracotta",
+    "TL_Timber",
+    "TL_TimberDark",
+    "TL_Water"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Pompeii-type street fountain (four stone slabs and a spout pillar), timber trestle stall with a cloth awning, two-wheeled cart with disc wheels, Dressel-like transport amphorae, draped honorific statue on an inscribed plinth (abstracted figure, no portrait). All dimensions are estimates; the statue is deliberately generic.",
+  "references": [
+    "Pompeii: street fountains and stepping stones (e.g. Via dell'Abbondanza)",
+    "Dressel, H. (1899), amphora typology table, CIL XV"
+  ],
+  "estimated_parts": [
+    "fountain",
+    "market stall",
+    "cart",
+    "amphora stack",
+    "statue on plinth"
+  ],
+  "preview_image": "data/assets/roman_street_props/preview.jpg",
+  "file_path": "data/assets/roman_street_props/asset.blend"
+}

@@ -1,0 +1,31 @@
+{
+  "asset_id": "roman_merchant_ship_corbita",
+  "name": "Roman merchant ship (corbita type)",
+  "historical_period": "1st - 5th c. CE (and hypothetical 1000 CE)",
+  "geographic_region": "Mediterranean",
+  "category": "transport",
+  "polygon_count": 326,
+  "material_list": [
+    "TL_Sail",
+    "TL_Timber",
+    "TL_TimberDark"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Round-hulled sailing merchantman with a rising stern post, single square mainsail and an inclined artemon at the bow, steering oars aft. Hull lines, 22 m length and rigging are simplified estimates.",
+  "references": [
+    "Torlonia relief from Portus (c. 200 CE, merchant ships in harbour)"
+  ],
+  "estimated_parts": [
+    "hull",
+    "deck",
+    "stern post",
+    "deckhouse",
+    "steering oars",
+    "mast and yard",
+    "square sail",
+    "artemon"
+  ],
+  "preview_image": "data/assets/roman_merchant_ship_corbita/preview.jpg",
+  "file_path": "data/assets/roman_merchant_ship_corbita/asset.blend"
+}

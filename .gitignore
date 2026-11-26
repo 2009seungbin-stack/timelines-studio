@@ -1,0 +1,21 @@
+# secrets
+.env
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+ffmpeg2pass*
+*.log
+# runtime data: database, renders, dev outputs (regenerable or private)
+data/*
+!data/geo/
+!data/textures/
+!data/assets/
+# GPL-3.0 map layers: licence for commercial video use unclear -> not redistributed
+data/geo/historical/world_*.geojson
+# asset .blend files are rebuilt by blender3d.assets.build_asset_library()
+data/assets/*/asset.blend

@@ -1,0 +1,567 @@
+{
+  "title": "What If the Roman Empire Never Fell?",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_type": "3D_RECONSTRUCTION",
+      "classification": "INTERPRETATION",
+      "renderer": "blender",
+      "narration_segment": "In 476, Odoacer deposed Romulus Augustulus, the last emperor in the West. Historians call it the end of the Western Empire. But what if Rome never fell?",
+      "camera_movement": "crane down from high over the walls to the forum",
+      "asset_refs": [
+        "roman_city:late_antique_476"
+      ],
+      "transition": {
+        "type": "cut",
+        "duration_s": 0
+      },
+      "spec": {
+        "kind": "roman_city",
+        "duration_s": 12,
+        "seed": 7,
+        "era_label": "c. 476 CE",
+        "camera": "crane_down",
+        "lighting": "dusk",
+        "params": {
+          "era": "late_antique_476",
+          "overlay": {
+            "badge": "APPROXIMATE RECONSTRUCTION · GENERIC LATE ROMAN CITY",
+            "era": "c. 476 CE"
+          }
+        }
+      }
+    },
+    {
+      "scene_id": "S02",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "renderer": "map",
+      "narration_segment": "Under Trajan, around 117, Rome ruled the whole Mediterranean, from Britain to Mesopotamia.",
+      "camera_movement": "slow push-in",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.8
+      },
+      "spec": {
+        "duration_s": 7,
+        "camera": [
+          {
+            "t": 0,
+            "lon": 18,
+            "lat": 41,
+            "zoom": 66
+          },
+          {
+            "t": 14,
+            "lon": 16,
+            "lat": 40,
+            "zoom": 50
+          }
+        ],
+        "territories": [
+          {
+            "entity": "rome_117",
+            "label": "Roman Empire",
+            "source": "awmc_117",
+            "color": "#9c2f2f",
+            "certainty": "approximate",
+            "appear_at": 0.4,
+            "fade_s": 1.4
+          }
+        ],
+        "labels": [
+          {
+            "text": "Roma",
+            "lon": 12.49169,
+            "lat": 41.88987,
+            "appear_at": 1.2
+          },
+          {
+            "text": "Londinium",
+            "lon": -0.08895,
+            "lat": 51.51333,
+            "appear_at": 2.2
+          },
+          {
+            "text": "Alexandria",
+            "lon": 29.90977,
+            "lat": 31.20144,
+            "appear_at": 2.6
+          },
+          {
+            "text": "Mare Nostrum",
+            "lon": 17.5,
+            "lat": 35.2,
+            "kind": "sea",
+            "appear_at": 0.8
+          }
+        ],
+        "captions": [
+          {
+            "text": "c. 117 CE",
+            "start": 0.3,
+            "end": 99,
+            "role": "date"
+          },
+          {
+            "text": "The empire under Trajan",
+            "start": 0.8,
+            "end": 99,
+            "role": "title"
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S03",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "renderer": "map",
+      "narration_segment": "In 395, Theodosius the First died. His sons ruled East and West, and no one ruled both halves again.",
+      "camera_movement": "hold wide, slight drift east",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.6
+      },
+      "spec": {
+        "duration_s": 9,
+        "camera": [
+          {
+            "t": 0,
+            "lon": 16,
+            "lat": 40,
+            "zoom": 50
+          },
+          {
+            "t": 14,
+            "lon": 19,
+            "lat": 40,
+            "zoom": 46
+          }
+        ],
+        "territories": [
+          {
+            "entity": "west_395",
+            "label": "Western Empire",
+            "source": "derived_395_west_east",
+            "feature_filter": {
+              "ENTITY": "WESTERN_EMPIRE_395_APPROX"
+            },
+            "color": "#a3402f",
+            "certainty": "approximate",
+            "appear_at": 0.0,
+            "fade_s": 0.6
+          },
+          {
+            "entity": "east_395",
+            "label": "Eastern Empire",
+            "source": "derived_395_west_east",
+            "feature_filter": {
+              "ENTITY": "EASTERN_EMPIRE_395_APPROX"
+            },
+            "color": "#2f5f8f",
+            "certainty": "approximate",
+            "appear_at": 1.6,
+            "fade_s": 1.0
+          }
+        ],
+        "labels": [
+          {
+            "text": "Western Empire",
+            "lon": 2.0,
+            "lat": 44.5,
+            "kind": "region",
+            "appear_at": 0.8
+          },
+          {
+            "text": "Eastern Empire",
+            "lon": 33.0,
+            "lat": 38.6,
+            "kind": "region",
+            "appear_at": 2.0
+          },
+          {
+            "text": "Mediolanum",
+            "lon": 9.18806,
+            "lat": 45.46375,
+            "appear_at": 1.0
+          },
+          {
+            "text": "Roma",
+            "lon": 12.49169,
+            "lat": 41.88987,
+            "appear_at": 1.0
+          },
+          {
+            "text": "Constantinopolis",
+            "lon": 28.96564,
+            "lat": 41.00659,
+            "appear_at": 2.2
+          }
+        ],
+        "captions": [
+          {
+            "text": "395 CE",
+            "start": 0.2,
+            "end": 99,
+            "role": "date"
+          },
+          {
+            "text": "One empire, two courts",
+            "start": 0.7,
+            "end": 99,
+            "role": "title"
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S04",
+      "scene_type": "TIMELINE",
+      "classification": "FACT",
+      "renderer": "graphic",
+      "narration_segment": "Visigoths sacked Rome in 410. Vandals took Carthage, the West's grain port, in 439, then sacked Rome in 455.",
+      "camera_movement": "static",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.6
+      },
+      "spec": {
+        "duration_s": 9,
+        "style": "timeline",
+        "lines": [
+          "The West unravels"
+        ],
+        "items": [
+          {
+            "year": 410,
+            "label": "Visigoths\nsack Rome"
+          },
+          {
+            "year": 439,
+            "label": "Vandals take\nCarthage"
+          },
+          {
+            "year": 455,
+            "label": "Vandals\nsack Rome"
+          },
+          {
+            "year": 476,
+            "label": "Odoacer deposes\nRomulus Augustulus"
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S05",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "renderer": "map",
+      "narration_segment": "By the 480s, the West was a patchwork of kingdoms. The East, ruled from Constantinople, lasted until 1453.",
+      "camera_movement": "pull back",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.6
+      },
+      "spec": {
+        "duration_s": 8,
+        "camera": [
+          {
+            "t": 0,
+            "lon": 14,
+            "lat": 42,
+            "zoom": 44
+          },
+          {
+            "t": 14,
+            "lon": 18,
+            "lat": 40,
+            "zoom": 58
+          }
+        ],
+        "territories": [
+          {
+            "entity": "west_395",
+            "label": "Western Empire",
+            "source": "derived_395_west_east",
+            "feature_filter": {
+              "ENTITY": "WESTERN_EMPIRE_395_APPROX"
+            },
+            "color": "#a3402f",
+            "certainty": "approximate",
+            "appear_at": 0.0,
+            "disappear_at": 2.2,
+            "fade_s": 1.2
+          },
+          {
+            "entity": "east_395",
+            "label": "Eastern Empire",
+            "source": "derived_395_west_east",
+            "feature_filter": {
+              "ENTITY": "EASTERN_EMPIRE_395_APPROX"
+            },
+            "color": "#2f5f8f",
+            "certainty": "approximate",
+            "appear_at": 0.0,
+            "fade_s": 0.4
+          }
+        ],
+        "labels": [
+          {
+            "text": "Franks",
+            "lon": 3.0,
+            "lat": 49.2,
+            "kind": "note",
+            "appear_at": 1.8
+          },
+          {
+            "text": "Visigoths",
+            "lon": -2.5,
+            "lat": 41.5,
+            "kind": "note",
+            "appear_at": 2.0
+          },
+          {
+            "text": "Burgundians",
+            "lon": 5.6,
+            "lat": 46.3,
+            "kind": "note",
+            "appear_at": 2.2
+          },
+          {
+            "text": "Odoacer (Italy)",
+            "lon": 12.3,
+            "lat": 43.2,
+            "kind": "note",
+            "appear_at": 2.4
+          },
+          {
+            "text": "Vandals",
+            "lon": 9.2,
+            "lat": 34.6,
+            "kind": "note",
+            "appear_at": 2.6
+          },
+          {
+            "text": "Eastern Roman Empire",
+            "lon": 33.0,
+            "lat": 38.6,
+            "kind": "region",
+            "appear_at": 3.0
+          },
+          {
+            "text": "Constantinopolis",
+            "lon": 28.96564,
+            "lat": 41.00659,
+            "appear_at": 3.2
+          }
+        ],
+        "captions": [
+          {
+            "text": "c. 480 CE",
+            "start": 0.2,
+            "end": 99,
+            "role": "date"
+          },
+          {
+            "text": "Kingdom locations approximate; no borders drawn",
+            "start": 1.8,
+            "end": 99,
+            "role": "note"
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S06",
+      "scene_type": "COMPARISON",
+      "classification": "INTERPRETATION",
+      "renderer": "graphic",
+      "narration_segment": "Historians even debate the ending: some prefer 480, others say Rome transformed rather than fell.",
+      "camera_movement": "static",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.6
+      },
+      "spec": {
+        "duration_s": 8,
+        "style": "comparison",
+        "lines": [
+          "Decline and fall",
+          "Transformation"
+        ],
+        "items": [
+          {
+            "left": "Edward Gibbon",
+            "right": "Peter Brown"
+          },
+          {
+            "left": "Bryan Ward-Perkins",
+            "right": "\"Late Antiquity\" historians"
+          },
+          {
+            "left": "Peter Heather",
+            "right": ""
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S07",
+      "scene_type": "MAP",
+      "classification": "SPECULATION",
+      "renderer": "map",
+      "narration_segment": "Now, the alternate history. Suppose Carthage holds in 439. The West keeps Africa's grain and taxes, and Odoacer never takes Italy.",
+      "camera_movement": "push in on the western Mediterranean",
+      "transition": {
+        "type": "dip_black",
+        "duration_s": 1.0
+      },
+      "spec": {
+        "duration_s": 10,
+        "camera": [
+          {
+            "t": 0,
+            "lon": 8,
+            "lat": 41,
+            "zoom": 44
+          },
+          {
+            "t": 14,
+            "lon": 11,
+            "lat": 39.5,
+            "zoom": 30
+          }
+        ],
+        "territories": [
+          {
+            "entity": "west_alt",
+            "label": "Western Empire (hypothetical)",
+            "source": "derived_395_west_east",
+            "feature_filter": {
+              "ENTITY": "WESTERN_EMPIRE_395_APPROX"
+            },
+            "color": "#7a3b8f",
+            "certainty": "hypothetical",
+            "appear_at": 0.6,
+            "fade_s": 1.2
+          }
+        ],
+        "labels": [
+          {
+            "text": "Carthago",
+            "lon": 10.32306,
+            "lat": 36.85306,
+            "appear_at": 1.4
+          },
+          {
+            "text": "Roma",
+            "lon": 12.49169,
+            "lat": 41.88987,
+            "appear_at": 1.4
+          },
+          {
+            "text": "Ravenna",
+            "lon": 12.1966,
+            "lat": 44.41572,
+            "appear_at": 1.8
+          }
+        ],
+        "routes": [
+          {
+            "name": "African grain to Rome",
+            "coords": [
+              [
+                10.4,
+                37.0
+              ],
+              [
+                11.2,
+                38.3
+              ],
+              [
+                12.0,
+                40.2
+              ],
+              [
+                12.25,
+                41.6
+              ]
+            ],
+            "kind": "sea",
+            "draw_from": 3.2,
+            "draw_to": 6.0
+          }
+        ],
+        "captions": [
+          {
+            "text": "439 CE",
+            "start": 0.3,
+            "end": 99,
+            "role": "date"
+          },
+          {
+            "text": "Divergence: Carthage holds",
+            "start": 0.8,
+            "end": 99,
+            "role": "title"
+          }
+        ]
+      }
+    },
+    {
+      "scene_id": "S08",
+      "scene_type": "3D_RECONSTRUCTION",
+      "classification": "SPECULATION",
+      "renderer": "blender",
+      "narration_segment": "In this scenario, Roman engineering keeps building: water mills like Barbegal's spread to many cities, and great domes like Hagia Sophia's rise in the West.",
+      "camera_movement": "flyover along the aqueduct toward the domed basilica",
+      "asset_refs": [
+        "roman_city:alt_1000"
+      ],
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.8
+      },
+      "spec": {
+        "kind": "roman_city",
+        "duration_s": 12,
+        "seed": 11,
+        "era_label": "1000 CE (hypothetical)",
+        "camera": "flyover",
+        "lighting": "golden_hour",
+        "params": {
+          "era": "alt_1000",
+          "harbor": true,
+          "overlay": {
+            "badge": "ALTERNATE HISTORY · HYPOTHETICAL RECONSTRUCTION",
+            "era": "1000 CE (hypothetical)"
+          }
+        }
+      }
+    },
+    {
+      "scene_id": "S09",
+      "scene_type": "TEXT_GRAPHIC",
+      "classification": "SPECULATION",
+      "renderer": "graphic",
+      "narration_segment": "This is one possibility, not a prediction. A surviving Rome might still have split apart, or transformed.",
+      "camera_movement": "static",
+      "transition": {
+        "type": "crossfade",
+        "duration_s": 0.8
+      },
+      "spec": {
+        "duration_s": 7,
+        "style": "end_card",
+        "lines": [
+          "One possibility, not a prediction",
+          "Sources and map credits in the description"
+        ]
+      }
+    }
+  ]
+}

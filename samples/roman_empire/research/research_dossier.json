@@ -1,0 +1,866 @@
+{
+ "topic": "What If the Roman Empire Never Fell? - historical baseline (Western Empire 117-476 CE, successors to 500, Eastern Empire to 1453)",
+ "sources": [
+  {
+   "id": "wp_roman_empire",
+   "title": "Roman Empire",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Roman_Empire",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Extent figure (~5 million km2 at 117) is footnoted to Taagepera 1979 and Turchin/Adams/Hall 2006 (per article footnote keys; full entries not read)."
+  },
+  {
+   "id": "wp_trajan",
+   "title": "Trajan",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Trajan",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Lead: emperor 98-117; empire reached maximum territorial extent by his death; Parthian war ended with incorporation of Armenia, Mesopotamia, Assyria. Only first ~100k of 250k characters read."
+  },
+  {
+   "id": "wp_diocletian",
+   "title": "Diocletian",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Diocletian",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Barnes 1982, Williams 1985, Southern 2001, Potter 2005 (short forms)."
+  },
+  {
+   "id": "wp_theodosius",
+   "title": "Theodosius I",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Theodosius_I",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration."
+  },
+  {
+   "id": "wp_sack410",
+   "title": "Sack of Rome (410)",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Heather 2006 (OUP), Burns 1994, Moorhead & Stuttard 2010 (British Museum Press), Wolfram 1988, Zosimus Bk 5."
+  },
+  {
+   "id": "wp_sack455",
+   "title": "Sack of Rome (455)",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(455)",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Parts of the 'Assessment' section are tagged citation-needed on the page."
+  },
+  {
+   "id": "wp_romulus",
+   "title": "Romulus Augustulus",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Mathisen 1997, Nathan 1997, Jones et al. 1980 (PLRE II), Kos 2008. Notes the deposition date 4 Sept (Fasti) vs 31 Aug (Auctarium Prosperi Havniense)."
+  },
+  {
+   "id": "wp_nepos",
+   "title": "Julius Nepos",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Julius_Nepos",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Says sources give three different dates for Nepos's death; murdered 9 May 480 per the article. Cites Marcellinus Comes, Anonymus Valesianus, PLRE, Mathisen 1998, Halsall 2007."
+  },
+  {
+   "id": "wp_fall_west",
+   "title": "Fall of the Western Roman Empire",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Only first ~100k of ~339k characters read (successor-kingdom section not reached)."
+  },
+  {
+   "id": "wp_byzantine",
+   "title": "Byzantine Empire",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Notes 'Byzantine' was coined after the empire's demise."
+  },
+  {
+   "id": "wp_fall_cpl",
+   "title": "Fall of Constantinople",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Runciman 1965, Norwich 1997, Nicolle 2000, Crowley 2005."
+  },
+  {
+   "id": "wp_ostrogoth",
+   "title": "Ostrogothic Kingdom",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Ostrogothic_Kingdom",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Bury 1923 (History of the Later Roman Empire), Arnold 2014 (CUP)."
+  },
+  {
+   "id": "wp_visigoth",
+   "title": "Visigothic Kingdom",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Visigothic_Kingdom",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration."
+  },
+  {
+   "id": "wp_vandal",
+   "title": "Vandal Kingdom",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Vandal_Kingdom",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Merrills & Miles, The Vandals (Blackwell 2007); Linn 2012 (J. Late Antiquity 5.2)."
+  },
+  {
+   "id": "wp_burgundian",
+   "title": "Kingdom of the Burgundians",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Burgundians",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Settlement date is itself disputed (411-413 vs c. 443 Sapaudia)."
+  },
+  {
+   "id": "wp_clovis",
+   "title": "Clovis I",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Clovis_I",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Shanzer 1998 (Early Medieval Europe 7.1) on baptism dating; Mathisen & Shanzer eds. 2012."
+  },
+  {
+   "id": "wp_annona",
+   "title": "Cura annonae",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Cura_annonae",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Rickman 1980, Garnsey 1989 (CUP), Kessler & Temin 2007 (Econ. Hist. Rev. 60.2), Erdkamp 2013, Linn 2012."
+  },
+  {
+   "id": "wp_hagia",
+   "title": "Hagia Sophia",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Only first ~100k of ~306k characters read. Cites Procopius De aedificiis, Malalas."
+  },
+  {
+   "id": "wp_barbegal",
+   "title": "Barbegal aqueduct and mills",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Barbegal_aqueduct_and_mills",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Cites Sellin 1983 (History of Technology 8), Leveau 1996 (J. Roman Archaeology 9), Sürmelihindi et al. 2018."
+  },
+  {
+   "id": "pmc_barbegal",
+   "title": "The second century CE Roman watermills of Barbegal: Unraveling the enigma of one of the oldest industrial complexes",
+   "author": "Sürmelihindi, G.; Leveau, P.; Spötl, C.; Bernard, V.; Passchier, C. W.",
+   "publisher": "Science Advances 4(9): eaar3620",
+   "year": "2018",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124920",
+   "source_type": "academic",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": "Open access (see article)",
+   "notes": "Peer-reviewed. Read via PMC text. Title taken from search-result listings of this paper; confirm exact title on the PMC page. 16 wheels in two rows of 8; aqueduct diverted c. 120-130 CE; ended early 3rd c.; carbonate evidence argues against steady year-round flour supply to a city; ship's biscuit suggested as an alternative (framed as possibility)."
+  },
+  {
+   "id": "jordanes_getica",
+   "title": "The Origin and Deeds of the Goths (Getica), transl. C. C. Mierow (1908)",
+   "author": "Jordanes (c. 551 CE); translated by Charles Christopher Mierow",
+   "publisher": "Wikisource transcription of the 1908 translation",
+   "year": "1908",
+   "url": "https://en.wikisource.org/wiki/The_origin_and_deeds_of_the_Goths/III",
+   "source_type": "primary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Primary source in translation (6th c., Gothic perspective). Part III sections 156 (Alaric enters Rome) and 235-243 (Augustulus, Odoacer). Only first ~100k chars read; sections quoted are those the page returned."
+  },
+  {
+   "id": "the_review",
+   "title": "The end of the world as they knew it (review of Ward-Perkins)",
+   "author": "Sean Kingsley",
+   "publisher": "Times Higher Education",
+   "year": "2005",
+   "url": "https://www.timeshighereducation.com/node/83996",
+   "source_type": "secondary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Review dated 24 June 2005; summarises Ward-Perkins' thesis and the 'transformation' opposition; quotes the book. Journalistic review, not peer review."
+  },
+  {
+   "id": "jra_review",
+   "title": "Review: B. Ward-Perkins, The Fall of Rome and the End of Civilization (OUP 2005)",
+   "author": "Garth Fowden (reviewer)",
+   "publisher": "Journal of Roman Archaeology 19",
+   "year": "2006",
+   "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/410-and-all-that-ward-perkinsbryan-the-fall-of-rome-and-the-end-of-civilization-oxford-university-press2005-pp-viii-239-maps-and-figs-46-isbn-0-19-280564-9-2995/EA5085EDEF6AFD4E887564495F3ABE20",
+   "source_type": "academic",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Only bibliographic metadata retrieved (paywalled). Confirms the book's existence, publisher and year; review content NOT read. DOI 10.1017/S1047759400007091."
+  },
+  {
+   "id": "wp_late_antiquity",
+   "title": "Late antiquity",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Late_antiquity",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Lists Brown 1971 The World of Late Antiquity AD 150-750; Brown 1998 Late Antiquity (Harvard/Belknap); Ward-Perkins 2005 (OUP); Heather 2005 (OUP)."
+  },
+  {
+   "id": "wp_gibbon",
+   "title": "The History of the Decline and Fall of the Roman Empire",
+   "author": null,
+   "publisher": "Wikipedia",
+   "year": null,
+   "url": "https://en.wikipedia.org/wiki/Decline_and_Fall_of_the_Roman_Empire",
+   "source_type": "encyclopedia",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": null,
+   "notes": "Wikipedia (CC BY-SA 4.0); a tertiary source - use for verified pointers to scholarship, confirm key numbers against the cited works before final narration. Vol. I published 1776; vols IV-VI 1788."
+  },
+  {
+   "id": "book_wardperkins",
+   "title": "The Fall of Rome and the End of Civilization",
+   "author": "Bryan Ward-Perkins",
+   "publisher": "Oxford University Press",
+   "year": "2005",
+   "url": null,
+   "source_type": "secondary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": false,
+   "license": null,
+   "notes": "Book. Existence/publisher/year confirmed via fetched JRA review metadata and THE review; the book itself was not read. Cite page numbers only after consulting a copy."
+  },
+  {
+   "id": "book_brown",
+   "title": "The World of Late Antiquity, AD 150-750",
+   "author": "Peter Brown",
+   "publisher": null,
+   "year": "1971",
+   "url": null,
+   "source_type": "secondary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": false,
+   "license": null,
+   "notes": "Book. Title/author/year confirmed via the fetched Wikipedia 'Late antiquity' reference list; publisher not confirmed by fetch - verify before use. Not read."
+  },
+  {
+   "id": "book_heather",
+   "title": "The Fall of the Roman Empire: A New History of Rome and the Barbarians",
+   "author": "Peter Heather",
+   "publisher": "Oxford University Press",
+   "year": "2005",
+   "url": null,
+   "source_type": "secondary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": false,
+   "license": null,
+   "notes": "Book. Wikipedia pages fetched give year as 2005, 2006 (OUP) and 2007 - imprint/edition dates differ; verify. Not read."
+  },
+  {
+   "id": "croke_marcellinus",
+   "title": "The Chronicle of Marcellinus: a translation and commentary (with a reproduction of Mommsen's edition of the Latin text)",
+   "author": "Marcellinus Comes; transl. Brian Croke",
+   "publisher": "Australian Association for Byzantine Studies, Sydney",
+   "year": "1995",
+   "url": null,
+   "source_type": "primary",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": false,
+   "license": null,
+   "notes": "Primary source (chronicle covers 379-534) in translation. Bibliographic details confirmed via fetched Wikipedia 'Marcellinus Comes'; the text of the 476/480 entries was NOT retrieved - verify before quoting."
+  },
+  {
+   "id": "ds_pleiades",
+   "title": "Pleiades: A Gazetteer of Past Places",
+   "author": null,
+   "publisher": "ISAW / Pleiades contributors",
+   "year": null,
+   "url": "https://pleiades.stoa.org/",
+   "source_type": "dataset",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": "CC BY 3.0",
+   "notes": "Place record 'rights' field read via JSON API; CSV dump from atlantides.org."
+  },
+  {
+   "id": "ds_awmc",
+   "title": "AWMC geodata (Ancient World Mapping Center, UNC)",
+   "author": null,
+   "publisher": "Ancient World Mapping Center",
+   "year": null,
+   "url": "https://github.com/AWMC/geodata",
+   "source_type": "dataset",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": "ODbL 1.0",
+   "notes": "README read; LICENSE.txt is ODbL."
+  },
+  {
+   "id": "ds_ourednik",
+   "title": "historical-basemaps (A. Ourednik)",
+   "author": null,
+   "publisher": "aourednik",
+   "year": null,
+   "url": "https://github.com/aourednik/historical-basemaps",
+   "source_type": "dataset",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": "GPL-3.0 (repository LICENSE file)",
+   "notes": "README warns: work in progress, verify before use."
+  },
+  {
+   "id": "ds_naturalearth",
+   "title": "Natural Earth vector data",
+   "author": null,
+   "publisher": "Natural Earth",
+   "year": null,
+   "url": "https://github.com/nvkelso/natural-earth-vector",
+   "source_type": "dataset",
+   "accessed": "2026-11-26",
+   "verified_by_fetch": true,
+   "license": "Public domain",
+   "notes": "LICENSE.md read."
+  }
+ ],
+ "claims": [
+  {
+   "id": "c_trajan_extent",
+   "text": "The Roman Empire reached its largest territorial extent under Trajan (emperor 98-117 CE), at about 5 million km2.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_roman_empire",
+    "wp_trajan"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Area figure is a modern estimate (footnoted to Taagepera 1979 and Turchin et al. 2006 in the encyclopedia article); the eastern conquests (Armenia, Mesopotamia, Assyria) were incorporated only late in his reign, so the maximum is a brief peak. Boundary data are approximate.",
+   "needs_review": true
+  },
+  {
+   "id": "c_diocletian",
+   "text": "Diocletian (emperor 284-305) created the Tetrarchy in 293 by appointing Galerius and Constantius as junior emperors alongside Maximian, and reorganised provinces and civil/military administration, with new administrative centres including Nicomedia, Mediolanum, Sirmium and Treverorum.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_diocletian"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_tetrarchy_division",
+   "text": "Under the Tetrarchy the empire was administered in four regions by four rulers; this arrangement collapsed soon after and unity was restored under Constantine.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_roman_empire",
+    "wp_diocletian"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_395",
+   "text": "Theodosius I died on 17 January 395 at Mediolanum (Milan) after briefly ruling the entire empire alone; his sons Arcadius (East) and Honorius (West) succeeded him, and the two halves did not again share one ruler.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_theodosius",
+    "wp_roman_empire"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "'Permanent' division is a retrospective reading: contemporaries still regarded the empire as one, with two courts; later reunification attempts occurred (e.g. Justinian's 6th c. reconquests). The 'did not again share one ruler' wording is our summary - verify.",
+   "needs_review": true
+  },
+  {
+   "id": "c_410",
+   "text": "Alaric's Visigoths sacked Rome starting 24 August 410, plundering for three days; it was the first sack of the city in almost 800 years. Jordanes (6th c.) says Alaric ordered the city sacked but not burned, and the holy places spared.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_sack410",
+    "jordanes_getica"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Jordanes is a 6th-century Gothic-oriented source writing ~140 years later; treat his detail on restraint as his account, not neutral fact.",
+   "needs_review": false
+  },
+  {
+   "id": "c_455",
+   "text": "The Vandals under Gaiseric sacked Rome for two weeks in June 455 (2-16 June), withdrawing to Africa; Pope Leo I reportedly persuaded Gaiseric to spare non-resisters.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_sack455"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Details of the assessment section (burned church, killings) are tagged citation-needed on the source page; use only the date/duration and the Leo episode with caution.",
+   "needs_review": true
+  },
+  {
+   "id": "c_476",
+   "text": "In 476 Odoacer deposed Romulus Augustulus (Fasti date 4 September; one source gives 31 August) and sent the western imperial regalia to the eastern emperor Zeno; this is the conventional marker for the end of the Western Roman Empire.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_romulus",
+    "wp_fall_west",
+    "wp_roman_empire",
+    "jordanes_getica"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_476_marker",
+   "text": "Choosing 476 as 'the end' is a historians' convention used since Gibbon (per the encyclopedia article citing Momigliano 1973); other proposed end dates include 406/410, 480 and later.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "wp_fall_west"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_nepos",
+   "text": "Julius Nepos, deposed from Italy in 475, kept recognition as legitimate western emperor from the East and ruled in Dalmatia until murdered in 480 (9 May 480 per one article; sources disagree on the date).",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_nepos",
+    "wp_romulus"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Date of death differs across ancient sources (three different dates reported).",
+   "needs_review": true
+  },
+  {
+   "id": "c_480_endpoint",
+   "text": "Because Nepos was the legitimate western emperor in the East's view until 480, some historians (Mathisen, Sasel Kos per the encyclopedia article) argue that Nepos, not Romulus Augustulus, was the last Western emperor; 480 is therefore an alternative endpoint.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "wp_romulus",
+    "wp_nepos",
+    "croke_marcellinus"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "The Marcellinus chronicle text was not retrieved; check Marcellinus Comes (transl. Croke 1995) and Jordanes before asserting what the sources say about 476 versus 480.",
+   "needs_review": true
+  },
+  {
+   "id": "c_east_1453",
+   "text": "The eastern half of the Roman Empire (later called 'Byzantine') continued until the fall of Constantinople to the Ottomans on 29 May 1453; the term 'Byzantine' was coined only after the empire's demise.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_byzantine",
+    "wp_fall_cpl"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_successors",
+   "text": "By about 476-500 the former West was divided among successor kingdoms: Visigoths (Aquitaine/Toulouse, then Hispania; de facto independent, recognised by Nepos in 475), Franks (Clovis from 481, victory at Soissons 486), Vandals (Carthage from 439), Burgundians (Rhone valley), and Odoacer's regime in Italy, replaced by Theodoric's Ostrogoths after 493.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_visigoth",
+    "wp_clovis",
+    "wp_vandal",
+    "wp_burgundian",
+    "wp_ostrogoth"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_odoacer_theoderic",
+   "text": "Theodoric killed Odoacer on 15 March 493 and ruled Italy from Ravenna (capital 493-540), formally as the eastern emperor's representative.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_ostrogoth"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_visigoth_gaul",
+   "text": "The Visigoths lost most of their Gallic holdings to the Franks after the Battle of Vouille in 507 and later made Toledo their capital (from 542).",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_visigoth",
+    "wp_clovis"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_burgundy_dates",
+   "text": "The settlement of the Burgundians in Roman territory is dated either to 411-413 (Rhine) or c. 443 (Sapaudia), and the kingdom ended in 534 with Frankish rule.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_burgundian"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Wikipedia presents both 411-413 and c. 443 for different phases; not resolved here.",
+   "needs_review": true
+  },
+  {
+   "id": "c_annona",
+   "text": "The Roman state's grain supply (cura annonae) fed Rome (later also Constantinople); Egypt became the main source after Augustus, with North Africa also major (Carthage the largest African port); Josephus claimed Africa fed Rome 8 months a year and Egypt 4, which the article considers likely an overstatement of Africa's role.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_annona"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_annona_need",
+   "text": "Modern estimates of Rome's imported grain need range from about 150,000 t/year (Erdkamp) to about 237,000 t (Mattingly & Aldrete) to about 272,000 t (Rickman, 40 million modii).",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "wp_annona"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Three scholars, three figures; present as a range, not a single number.",
+   "needs_review": false
+  },
+  {
+   "id": "c_vandal_grain",
+   "text": "The Vandal capture of Carthage in 439 cost the Western Empire most of its North African grain supply.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_vandal",
+    "wp_annona"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "The 'major blow' framing is from the encyclopedia; Linn 2012 (J. Late Antiquity) discusses the 441-455 grain supply in detail - check before claiming a causal link to 476.",
+   "needs_review": true
+  },
+  {
+   "id": "c_constantinople_grain",
+   "text": "Constantinople's grain supply depended on Egypt and was greatly reduced by the loss of Egypt to the Sasanians (602-628) and then permanently to the Rashidun Caliphate.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_annona"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "The article also says Alexandria fell in 621, which sits awkwardly with common Sasanian-occupation chronology (c. 618/619-628); verify before using any year.",
+   "needs_review": true
+  },
+  {
+   "id": "c_barbegal_basic",
+   "text": "The Barbegal complex near Arles (ancient Arelate) had 16 waterwheels in two parallel rows of eight, fed by an aqueduct diverted to the site around 120-130 CE, and ceased operating in the early 3rd century CE.",
+   "classification": "FACT",
+   "source_ids": [
+    "pmc_barbegal",
+    "wp_barbegal"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Wikipedia summarises operation as 'beginning of the 2nd century to about the end of the 3rd' citing the same 2018 paper; the paper itself says the aqueduct was diverted c. 120-130 CE and the end event is 'early third century'. Prefer the paper.",
+   "needs_review": true
+  },
+  {
+   "id": "c_barbegal_capacity",
+   "text": "Barbegal's capacity was estimated at about 4.5 t of flour per day in some accounts and up to 25 t/day in others; the 25 t figure (enough for at least 27,000 people) is quoted in the 2018 paper from earlier work.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "pmc_barbegal",
+    "wp_barbegal"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Estimates differ by a factor of ~5; the 2018 paper argues the carbonate evidence fits interrupted use and a ship's-biscuit purpose rather than steady flour for a city.",
+   "needs_review": true
+  },
+  {
+   "id": "c_barbegal_purpose",
+   "text": "Whether Barbegal supplied flour to Arles or bread/biscuit for shipping (the 2018 authors' alternative, from nearby ports) is not settled.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "pmc_barbegal"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Older view (Leveau 1996, Sellin 1983 per Wikipedia reference list): flour for Arelate. The 2018 paper challenges it. Do not state purpose as fact.",
+   "needs_review": false
+  },
+  {
+   "id": "c_barbegal_not_unique",
+   "text": "Roman engineering included large-scale mechanised milling; the 'oldest industrial complex' label for Barbegal is a popular framing, not a settled scholarly claim.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "pmc_barbegal",
+    "wp_barbegal"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": true
+  },
+  {
+   "id": "c_hagia",
+   "text": "Hagia Sophia in Constantinople was built under Justinian I between 532 and 537, designed by the geometers Anthemius of Tralles and Isidore of Miletus.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_hagia"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_hagia_dome",
+   "text": "The eastern half of the first dome complex collapsed in an earthquake in 558; the rebuild (completed 562) used a ribbed dome on pendentives with a diameter between 32.7 and 33.5 m, and the building remained the world's largest church for more than five hundred years.",
+   "classification": "FACT",
+   "source_ids": [
+    "wp_hagia"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "537 marks completion of the first church; the dome seen today is the 562 rebuild. If the script shows the dome, say '537 dedication' carefully.",
+   "needs_review": true
+  },
+  {
+   "id": "c_gibbon",
+   "text": "Edward Gibbon's History of the Decline and Fall of the Roman Empire (vol. I 1776; final volumes 1788) shaped the 'decline and fall' narrative, ascribing the collapse largely to loss of civic virtue and (in his view) Christianity.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "wp_gibbon",
+    "wp_fall_west"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_brown",
+   "text": "Peter Brown's The World of Late Antiquity (1971) and later Late Antiquity (1998) revised Gibbon's picture of an ossified culture in favour of a period of transformation and renewal.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "wp_late_antiquity",
+    "book_brown"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": true
+  },
+  {
+   "id": "c_wardperkins",
+   "text": "Bryan Ward-Perkins (The Fall of Rome and the End of Civilization, OUP 2005) argues, using archaeology, that the 5th-7th centuries saw a dramatic decline in western living standards - 'not a mere transformation' - and criticises the transformation view.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "the_review",
+    "jra_review",
+    "book_wardperkins",
+    "wp_late_antiquity"
+   ],
+   "scenario_ref": null,
+   "conflict_note": null,
+   "needs_review": false
+  },
+  {
+   "id": "c_debate",
+   "text": "Historians disagree whether the western empire 'fell' (catastrophic decline: Ward-Perkins; invasions as direct cause: Peter Heather) or was 'transformed' (Peter Brown and the Late Antiquity school); the question is open.",
+   "classification": "INTERPRETATION",
+   "source_ids": [
+    "the_review",
+    "wp_late_antiquity",
+    "wp_fall_west",
+    "book_heather"
+   ],
+   "scenario_ref": null,
+   "conflict_note": "Heather's book is dated 2005, 2006 or 2007 in the pages fetched (UK vs US imprint); the encyclopedia article attributes to Heather the view that invasions crippled the West.",
+   "needs_review": true
+  },
+  {
+   "id": "s_survive",
+   "text": "If the Western Empire had not collapsed, its tax base, Mediterranean grain trade and state-sponsored engineering might have continued, but how long and in what political form is unknowable.",
+   "classification": "SPECULATION",
+   "source_ids": [],
+   "scenario_ref": "roman_never_fell",
+   "conflict_note": null,
+   "needs_review": true
+  },
+  {
+   "id": "s_mills",
+   "text": "In a surviving empire, Barbegal-style water-powered industry and aqueduct systems could have spread more widely and earlier.",
+   "classification": "SPECULATION",
+   "source_ids": [],
+   "scenario_ref": "roman_never_fell",
+   "conflict_note": null,
+   "needs_review": true
+  }
+ ],
+ "conflicts": [
+  {
+   "claim_ids": [
+    "c_barbegal_basic"
+   ],
+   "description": "Barbegal operation period: Wikipedia says 'beginning of the 2nd century until about the end of the 3rd'; the 2018 paper says aqueduct diverted c.120-130 CE, activity ended early 3rd century.",
+   "resolution": "Use 'built c. 120-130 CE' and 'operated into the early 3rd century' from the paper; flagged for review."
+  },
+  {
+   "claim_ids": [
+    "c_barbegal_capacity",
+    "c_barbegal_purpose"
+   ],
+   "description": "Output estimates 4.5 t/day vs 25 t/day; purpose flour for Arles vs ship's biscuit.",
+   "resolution": "Present as unresolved; never state a single output figure or purpose as fact."
+  },
+  {
+   "claim_ids": [
+    "c_476",
+    "c_476_marker",
+    "c_nepos",
+    "c_480_endpoint"
+   ],
+   "description": "End of the Western Empire: conventional 476 (Odoacer/Romulus Augustulus) vs 480 (death of Julius Nepos, still recognised by Constantinople). Deposition day also varies (4 Sept per Fasti vs 31 Aug per Auctarium Prosperi Havniense). Sources disagree on Nepos's death date.",
+   "resolution": "Script: 'conventionally 476'; mention 480 as the alternative; avoid exact day-of-month for 476 on screen."
+  },
+  {
+   "claim_ids": [
+    "c_395"
+   ],
+   "description": "Whether 395 was a permanent split or just another division of ordinary administration; Theodosius was the last to rule both halves alone.",
+   "resolution": "Say 'after 395 the two halves were ruled separately' as a simplification; note later reunification attempts."
+  },
+  {
+   "claim_ids": [
+    "c_trajan_extent"
+   ],
+   "description": "Trajan's 117 'greatest extent' includes provinces held only briefly at the end of his reign; area figure (5 million km2) is an estimate. Map data (AWMC 117 extent vs aourednik 'year 100') differ in eastern boundary.",
+   "resolution": "Label map 'c. 117 CE, approximate'; flagged for review."
+  },
+  {
+   "claim_ids": [
+    "c_debate",
+    "c_gibbon",
+    "c_brown",
+    "c_wardperkins"
+   ],
+   "description": "Fall vs transformation is a genuine scholarly disagreement (Gibbon / Ward-Perkins / Heather vs Brown and the Late Antiquity school).",
+   "resolution": "Present as INTERPRETATION with both sides; do not adjudicate."
+  },
+  {
+   "claim_ids": [
+    "c_burgundy_dates"
+   ],
+   "description": "Burgundian settlement 411-413 vs c. 443.",
+   "resolution": "Avoid exact date on screen; use 'by the mid-5th century'."
+  },
+  {
+   "claim_ids": [
+    "c_constantinople_grain"
+   ],
+   "description": "Dates in source for Egyptian grain loss (Alexandria 621; Sasanian rule 602-628) are inconsistent with the common chronology (Sasanian conquest of Egypt c. 618/619).",
+   "resolution": "Only claim 'lost to the Sasanians and then the Arab caliphate in the 7th century' until checked."
+  }
+ ]
+}

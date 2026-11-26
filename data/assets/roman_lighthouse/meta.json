@@ -1,0 +1,27 @@
+{
+  "asset_id": "roman_lighthouse",
+  "name": "Harbour lighthouse (stepped stages)",
+  "historical_period": "1st c. BCE - 5th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "infrastructure",
+  "polygon_count": 999,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Dark",
+    "TL_Tile"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Three diminishing square stages with a lantern; type of the Portus/Ostia lighthouse known from reliefs and of the Tower of Hercules (A Coruna). Height (~33 m) is an estimate.",
+  "references": [
+    "Tower of Hercules, A Coruna (late 1st - early 2nd c. CE)",
+    "Torlonia relief from Portus (lighthouse depiction)"
+  ],
+  "estimated_parts": [
+    "three stages with windows",
+    "cornices",
+    "lantern"
+  ],
+  "preview_image": "data/assets/roman_lighthouse/preview.jpg",
+  "file_path": "data/assets/roman_lighthouse/asset.blend"
+}

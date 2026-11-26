@@ -1,0 +1,26 @@
+{
+  "asset_id": "roman_roadside_tomb",
+  "name": "Roadside tombs (altar, drum and house types)",
+  "historical_period": "1st c. BCE - 4th c. CE",
+  "geographic_region": "Roman Italy",
+  "category": "funerary",
+  "polygon_count": 166,
+  "material_list": [
+    "TL_Brick",
+    "TL_Tile",
+    "TL_Travertine"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Three generic tomb types lining roads outside the walls (necropolis). Sizes estimated.",
+  "references": [
+    "Via Appia, tomb of Caecilia Metella (drum type, 1st c. BCE)"
+  ],
+  "estimated_parts": [
+    "altar tomb",
+    "drum tomb with earth mound",
+    "house tomb"
+  ],
+  "preview_image": "data/assets/roman_roadside_tomb/preview.jpg",
+  "file_path": "data/assets/roman_roadside_tomb/asset.blend"
+}

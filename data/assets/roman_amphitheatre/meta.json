@@ -1,0 +1,30 @@
+{
+  "asset_id": "roman_amphitheatre",
+  "name": "Amphitheatre (provincial size)",
+  "historical_period": "1st - 5th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "entertainment",
+  "polygon_count": 4089,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Dark",
+    "TL_Earth",
+    "TL_PlasterPlain",
+    "TL_Travertine"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Elliptical arena with two arcaded storeys and an attic; 112 x 88 m outside is an estimate of a mid-sized provincial amphitheatre. Cavea is simplified to six stepped bands; no vomitoria.",
+  "references": [
+    "Amphitheatre of Nimes (late 1st c. CE)",
+    "Amphitheatre of Arles (c. 90 CE)"
+  ],
+  "estimated_parts": [
+    "arcaded facade (2 tiers)",
+    "attic",
+    "cavea",
+    "arena with podium wall"
+  ],
+  "preview_image": "data/assets/roman_amphitheatre/preview.jpg",
+  "file_path": "data/assets/roman_amphitheatre/asset.blend"
+}

@@ -1,0 +1,33 @@
+{
+  "asset_id": "roman_temple_corinthian_hexastyle",
+  "name": "Corinthian hexastyle temple on a podium (Capitolium type)",
+  "historical_period": "1st c. BCE - 4th c. CE",
+  "geographic_region": "Roman Italy / western provinces",
+  "category": "religious",
+  "polygon_count": 56064,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Bronze",
+    "TL_Marble",
+    "TL_Tile",
+    "TL_Travertine"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Column height 10 lower diameters, eustyle intercolumniation (2.25 D, 3 D at the centre) and pediment rise of 1/9 of the front follow Vitruvius Book III; Corinthian capital height = 1 D (Book IV.1). v2 (2026-11-26) models attic bases, shafts with 24 flutes and entasis (straight lower third, taper to 5/6 D), capitals approximated by a bell with two rows of eight leaf patches, four corner volutes and a concave abacus with fleurons (an approximation, not carved acanthus), an entablature with three-fascia architrave, frieze, dentils, modillions, corona and sima, raking cornices, recessed tympanum, acroterion plinths, podium mouldings, bronze-doored cella. ESTIMATES: podium height (3.2 m), moulding profiles, entablature height (2.45 D), dentil/modillion spacing, 24 flutes (usual for Roman Corinthian shafts).",
+  "references": [
+    "Vitruvius, De architectura (c. 30-15 BCE), Book III (temple proportions, eustyle) and Book IV (Corinthian order)",
+    "Maison Carree, Nimes (pseudoperipteral hexastyle Corinthian temple, c. 2 CE)"
+  ],
+  "estimated_parts": [
+    "podium with mouldings",
+    "frontal stairs",
+    "6 front + 4 pronaos columns",
+    "engaged half columns",
+    "cella with door",
+    "architrave/frieze/cornice",
+    "tiled pediment roof"
+  ],
+  "preview_image": "data/assets/roman_temple_corinthian_hexastyle/preview.jpg",
+  "file_path": "data/assets/roman_temple_corinthian_hexastyle/asset.blend"
+}

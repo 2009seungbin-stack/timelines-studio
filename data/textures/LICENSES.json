@@ -1,0 +1,174 @@
+[
+  {
+    "asset": "clay_roof_tiles_02",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "clay_roof_tiles_02_diffuse_2k.jpg",
+      "clay_roof_tiles_02_rough_2k.jpg",
+      "clay_roof_tiles_02_nor_gl_2k.jpg"
+    ]
+  },
+  {
+    "asset": "plastered_wall_04",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/plastered_wall_04",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "plastered_wall_04_diffuse_1k.jpg",
+      "plastered_wall_04_rough_1k.jpg",
+      "plastered_wall_04_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "red_brick_plaster_patch_02",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/red_brick_plaster_patch_02",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "red_brick_plaster_patch_02_diffuse_1k.jpg",
+      "red_brick_plaster_patch_02_rough_1k.jpg",
+      "red_brick_plaster_patch_02_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "medieval_red_brick",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/medieval_red_brick",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "medieval_red_brick_diffuse_1k.jpg",
+      "medieval_red_brick_rough_1k.jpg",
+      "medieval_red_brick_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "large_sandstone_blocks_01",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/large_sandstone_blocks_01",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "large_sandstone_blocks_01_diffuse_1k.jpg",
+      "large_sandstone_blocks_01_rough_1k.jpg",
+      "large_sandstone_blocks_01_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "marble_01",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/marble_01",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "marble_01_diffuse_1k.jpg",
+      "marble_01_rough_1k.jpg",
+      "marble_01_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "cobblestone_large_01",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/cobblestone_large_01",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "cobblestone_large_01_diffuse_1k.jpg",
+      "cobblestone_large_01_rough_1k.jpg",
+      "cobblestone_large_01_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "aerial_grass_rock",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/aerial_grass_rock",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "aerial_grass_rock_diffuse_1k.jpg",
+      "aerial_grass_rock_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "aerial_rocks_02",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/aerial_rocks_02",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "aerial_rocks_02_diffuse_1k.jpg",
+      "aerial_rocks_02_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "coast_sand_01",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/coast_sand_01",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "coast_sand_01_diffuse_1k.jpg",
+      "coast_sand_01_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "dirt",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/dirt",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "dirt_diffuse_1k.jpg",
+      "dirt_rough_1k.jpg",
+      "dirt_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "weathered_brown_planks",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/weathered_brown_planks",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "weathered_brown_planks_diffuse_1k.jpg",
+      "weathered_brown_planks_rough_1k.jpg",
+      "weathered_brown_planks_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "bark_brown_02",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/bark_brown_02",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "bark_brown_02_diffuse_1k.jpg",
+      "bark_brown_02_nor_gl_1k.jpg"
+    ]
+  },
+  {
+    "asset": "qwantani_dusk_2_puresky",
+    "type": "hdri",
+    "url": "https://polyhaven.com/a/qwantani_dusk_2_puresky",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "qwantani_dusk_2_puresky_2k.hdr"
+    ]
+  },
+  {
+    "asset": "kloppenheim_06_puresky",
+    "type": "hdri",
+    "url": "https://polyhaven.com/a/kloppenheim_06_puresky",
+    "license": "CC0",
+    "downloaded_at": "2026-11-25T16:11:56+00:00",
+    "files": [
+      "kloppenheim_06_puresky_2k.hdr"
+    ]
+  }
+]

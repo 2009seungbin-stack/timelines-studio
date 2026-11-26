@@ -1,0 +1,34 @@
+{
+  "asset_id": "barbegal_watermill_cascade",
+  "name": "Stepped water-mill cascade (Barbegal type)",
+  "historical_period": "2nd c. CE (precedent); used here for a hypothetical 1000 CE city",
+  "geographic_region": "Roman Gaul / alternate-history city",
+  "category": "industry",
+  "polygon_count": 4069,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Dark",
+    "TL_Earth",
+    "TL_PlasterPlain",
+    "TL_PlasterWall",
+    "TL_Tile",
+    "TL_TimberDark",
+    "TL_Travertine",
+    "TL_Water"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Two parallel rows of eight mill houses (v2: with windows and cornices) descending a slope with overshot wheels, fed by a branch of the aqueduct, after the Barbegal complex near Arles (2nd c. CE). Building sizes, wheel diameter (2.2 m) and step drop are estimates; mill machinery is not modelled.",
+  "references": [
+    "Barbegal mill complex, Fontvieille near Arles (2nd c. CE)",
+    "Leveau, P. (1996) 'The Barbegal water mill in its environment', Journal of Roman Archaeology 9"
+  ],
+  "estimated_parts": [
+    "16 mill houses on terraces",
+    "overshot wheels",
+    "central race",
+    "head race"
+  ],
+  "preview_image": "data/assets/barbegal_watermill_cascade/preview.jpg",
+  "file_path": "data/assets/barbegal_watermill_cascade/asset.blend"
+}

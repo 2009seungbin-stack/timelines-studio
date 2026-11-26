@@ -1,0 +1,29 @@
+{
+  "asset_id": "roman_aqueduct_arcade",
+  "name": "Aqueduct arcade (single and two-tier)",
+  "historical_period": "1st c. BCE - 5th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "infrastructure",
+  "polygon_count": 2050,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_AshlarGrey"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Arches on piers carrying a covered channel (specus) with a gentle gradient; where the arcade exceeds ~17 m a second tier is used, the solution seen at the Pont du Gard and Segovia. Span 6.4 m, pier 2.4 m and gradient 0.3 % are estimates for a generic provincial aqueduct.",
+  "references": [
+    "Pont du Gard (aqueduct of Nimes, 1st c. CE)",
+    "Aqueduct of Segovia (late 1st - early 2nd c. CE)",
+    "Frontinus, De aquaeductu (c. 97 CE)"
+  ],
+  "estimated_parts": [
+    "piers",
+    "semicircular arches",
+    "impost mouldings",
+    "second tier",
+    "specus with cover slabs"
+  ],
+  "preview_image": "data/assets/roman_aqueduct_arcade/preview.jpg",
+  "file_path": "data/assets/roman_aqueduct_arcade/asset.blend"
+}

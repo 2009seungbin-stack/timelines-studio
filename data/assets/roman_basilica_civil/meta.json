@@ -1,0 +1,29 @@
+{
+  "asset_id": "roman_basilica_civil",
+  "name": "Civil basilica (nave, aisles, clerestory, apse)",
+  "historical_period": "1st c. BCE - 5th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "civic",
+  "polygon_count": 4377,
+  "material_list": [
+    "TL_Brick",
+    "TL_Dark",
+    "TL_Tile"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Timber-roofed three-aisled hall with clerestory and apse; Vitruvius (V.1) gives a width of 1/3 to 1/2 of the length. All dimensions (60 x 32 m, 9/17 m heights) are estimates; arched windows are recessed openings, no interior.",
+  "references": [
+    "Vitruvius, De architectura (c. 30-15 BCE), Book V.1 (forum and basilica)",
+    "Basilica of Constantine (Aula Palatina), Trier"
+  ],
+  "estimated_parts": [
+    "aisle walls with arched windows",
+    "clerestory",
+    "lean-to aisle roofs",
+    "gable nave roof",
+    "apse"
+  ],
+  "preview_image": "data/assets/roman_basilica_civil/preview.jpg",
+  "file_path": "data/assets/roman_basilica_civil/asset.blend"
+}

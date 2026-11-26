@@ -1,0 +1,27 @@
+{
+  "asset_id": "roman_city_gate",
+  "name": "Double-arched city gate with round towers",
+  "historical_period": "3rd - 6th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "military",
+  "polygon_count": 1360,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Brick",
+    "TL_Tile"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Two arched passages flanked by semicircular towers (cf. Porta Appia / Porta San Sebastiano in its late antique form). Dimensions are estimates.",
+  "references": [
+    "Porta Appia (Porta San Sebastiano), Aurelian Walls, Rome"
+  ],
+  "estimated_parts": [
+    "gate block with two passages",
+    "upper storey",
+    "two round towers",
+    "wall stubs"
+  ],
+  "preview_image": "data/assets/roman_city_gate/preview.jpg",
+  "file_path": "data/assets/roman_city_gate/asset.blend"
+}

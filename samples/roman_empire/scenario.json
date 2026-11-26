@@ -1,0 +1,74 @@
+{
+  "id": "rome_carthage_holds",
+  "title": "Carthage holds: the Western Empire keeps Africa",
+  "starting_point_year": 395,
+  "divergence": "In 439 the Vandal attack on Carthage fails and the western government keeps the African provinces.",
+  "divergence_year": 439,
+  "geographic_scope": "Western Mediterranean: Italy, Africa, Gaul, Hispania; the eastern empire follows its real course",
+  "horizon_start": 439,
+  "horizon_end": 1000,
+  "constraints": [
+    "Only one divergence: the Vandal capture of Carthage in 439 does not happen.",
+    "Everything before 439 is real history and cites dossier claims.",
+    "The eastern empire keeps its documented history unless a western event plausibly changes it.",
+    "No quantities without sources; outcomes are described qualitatively."
+  ],
+  "assumptions": [
+    "African tax revenue and grain were central to the western state's finances (dossier c_vandal_grain, c_annona).",
+    "A western state with revenue can keep paying its army and court, so the 476 coup is not inevitable.",
+    "Roman engineering traditions (aqueducts, water mills, domed architecture) continue where the state keeps funding them."
+  ],
+  "events": [
+    {
+      "id": "ev_divergence",
+      "year": 439,
+      "title": "Carthage resists the Vandals",
+      "description": "The Vandal assault on Carthage fails. The western government keeps the African provinces and their port.",
+      "domain": "military",
+      "classification": "SPECULATION",
+      "caused_by": [],
+      "basis_claim_ids": ["c_vandal_grain"],
+      "map_changes": [{"entity": "rome_west", "action": "hold", "region": "western_empire_395", "note": "Africa stays Roman"}]
+    },
+    {
+      "id": "ev_grain",
+      "year": 440,
+      "title": "African grain keeps sailing to Rome",
+      "description": "Taxes in kind and the state grain shipments from Africa to Rome continue.",
+      "domain": "economic",
+      "classification": "SPECULATION",
+      "caused_by": ["ev_divergence"],
+      "basis_claim_ids": ["c_annona"]
+    },
+    {
+      "id": "ev_no_coup",
+      "year": 476,
+      "title": "No coup in Italy",
+      "description": "With its revenue intact, the western court keeps paying its army, and Odoacer's deposition of the emperor does not happen.",
+      "domain": "political",
+      "classification": "SPECULATION",
+      "caused_by": ["ev_grain"],
+      "basis_claim_ids": ["c_476"]
+    },
+    {
+      "id": "ev_mills",
+      "year": 600,
+      "title": "Water power spreads",
+      "description": "State-funded engineering continues and aqueduct-fed water mills of the Barbegal type are built in more cities.",
+      "domain": "technology",
+      "classification": "SPECULATION",
+      "caused_by": ["ev_grain"],
+      "basis_claim_ids": ["c_barbegal_basic", "c_barbegal_not_unique"]
+    },
+    {
+      "id": "ev_domes",
+      "year": 700,
+      "title": "Domes in the West",
+      "description": "Western cities build large domed churches on the model of Hagia Sophia in Constantinople.",
+      "domain": "urban",
+      "classification": "SPECULATION",
+      "caused_by": ["ev_no_coup"],
+      "basis_claim_ids": ["c_hagia"]
+    }
+  ]
+}

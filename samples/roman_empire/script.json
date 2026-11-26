@@ -1,0 +1,147 @@
+{
+  "title": "What If the Roman Empire Never Fell?",
+  "language": "en",
+  "target_duration_s": 80,
+  "words_per_minute": 160,
+  "segments": [
+    {
+      "scene_id": "S01",
+      "section": "hook",
+      "narration": "In 476, Odoacer deposed Romulus Augustulus, the last emperor in the West. Historians call it the end of the Western Empire. But what if Rome never fell?",
+      "visual_description": "Approximate 3D reconstruction of a generic late Roman city at dusk; slow crane down over the forum.",
+      "scene_type": "3D_RECONSTRUCTION",
+      "classification": "INTERPRETATION",
+      "claim_ids": [
+        "c_476",
+        "c_476_marker"
+      ],
+      "required_assets": [
+        "roman_city:late_antique_476"
+      ],
+      "camera_direction": "crane down from high over the city walls to the forum",
+      "animation_instructions": "Badge: APPROXIMATE RECONSTRUCTION. No text in 3D.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S02",
+      "section": "background",
+      "narration": "Under Trajan, around 117, Rome ruled the whole Mediterranean, from Britain to Mesopotamia.",
+      "visual_description": "Map of the empire c. 117 CE (AWMC extent) filling in over the Mediterranean.",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "claim_ids": [
+        "c_trajan_extent"
+      ],
+      "camera_direction": "slow push-in over the Mediterranean",
+      "animation_instructions": "Empire fades in, approximate borders."
+    },
+    {
+      "scene_id": "S03",
+      "section": "real_history",
+      "narration": "In 395, Theodosius the First died. His sons ruled East and West, and no one ruled both halves again.",
+      "visual_description": "Map: the empire splits into western (red) and eastern (blue) halves.",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "claim_ids": [
+        "c_395"
+      ],
+      "camera_direction": "hold wide, slight drift east",
+      "animation_instructions": "West and East fade in one after the other with region labels.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S04",
+      "section": "real_history",
+      "narration": "Visigoths sacked Rome in 410. Vandals took Carthage, the West's grain port, in 439, then sacked Rome in 455.",
+      "visual_description": "Timeline graphic 395 to 476.",
+      "scene_type": "TIMELINE",
+      "classification": "FACT",
+      "claim_ids": [
+        "c_410",
+        "c_vandal_grain",
+        "c_455"
+      ],
+      "animation_instructions": "Dates appear in narration order.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S05",
+      "section": "real_history",
+      "narration": "By the 480s, the West was a patchwork of kingdoms. The East, ruled from Constantinople, lasted until 1453.",
+      "visual_description": "Map: the western half fades away; successor peoples labelled at approximate locations; the East remains.",
+      "scene_type": "MAP",
+      "classification": "FACT",
+      "claim_ids": [
+        "c_successors",
+        "c_east_1453"
+      ],
+      "camera_direction": "pull back to the whole Mediterranean",
+      "animation_instructions": "No successor-kingdom borders are drawn (no openly licensed data); labels only.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S06",
+      "section": "limits",
+      "narration": "Historians even debate the ending: some prefer 480, others say Rome transformed rather than fell.",
+      "visual_description": "Comparison card: decline and fall versus transformation.",
+      "scene_type": "COMPARISON",
+      "classification": "INTERPRETATION",
+      "claim_ids": [
+        "c_480_endpoint",
+        "c_debate",
+        "c_gibbon",
+        "c_brown",
+        "c_wardperkins"
+      ],
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S07",
+      "section": "divergence",
+      "narration": "Now, the alternate history. Suppose Carthage holds in 439. The West keeps Africa's grain and taxes, and Odoacer never takes Italy.",
+      "visual_description": "Hypothetical map: the western empire hatched in purple; grain route Carthage to Rome draws across the sea.",
+      "scene_type": "MAP",
+      "classification": "SPECULATION",
+      "claim_ids": [
+        "c_vandal_grain",
+        "c_annona",
+        "s_survive"
+      ],
+      "camera_direction": "push in on the western Mediterranean",
+      "animation_instructions": "Dip to black into this scene; ALTERNATE HISTORY badge.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S08",
+      "section": "impact",
+      "narration": "In this scenario, Roman engineering keeps building: water mills like Barbegal's spread to many cities, and great domes like Hagia Sophia's rise in the West.",
+      "visual_description": "Hypothetical 3D Roman city in 1000 CE: aqueduct, water mills, domed basilica, harbor; flyover.",
+      "scene_type": "3D_RECONSTRUCTION",
+      "classification": "SPECULATION",
+      "claim_ids": [
+        "c_barbegal_basic",
+        "c_hagia",
+        "s_mills"
+      ],
+      "required_assets": [
+        "roman_city:alt_1000"
+      ],
+      "camera_direction": "flyover along the aqueduct toward the domed basilica",
+      "animation_instructions": "Badge: ALTERNATE HISTORY - HYPOTHETICAL RECONSTRUCTION.",
+      "est_duration_s": 0
+    },
+    {
+      "scene_id": "S09",
+      "section": "conclusion",
+      "narration": "This is one possibility, not a prediction. A surviving Rome might still have split apart, or transformed.",
+      "visual_description": "End card.",
+      "scene_type": "TEXT_GRAPHIC",
+      "classification": "SPECULATION",
+      "claim_ids": [
+        "c_debate",
+        "s_survive"
+      ],
+      "est_duration_s": 0
+    }
+  ]
+}

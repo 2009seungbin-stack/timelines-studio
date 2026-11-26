@@ -1,0 +1,31 @@
+{
+  "asset_id": "mediterranean_trees",
+  "name": "Mediterranean trees (cypress, stone pine, olive, broadleaf)",
+  "historical_period": "any",
+  "geographic_region": "Mediterranean",
+  "category": "vegetation",
+  "polygon_count": 1957,
+  "material_list": [
+    "TL_Bark",
+    "TL_LeafBroad",
+    "TL_LeafCypress",
+    "TL_LeafOlive",
+    "TL_LeafPine",
+    "TL_LeafShrub"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "v2 (2026-11-26): trees built from 150-450 small leaf cards (procedural leaf-cluster alpha, translucency, crown-depth shading, normals bent outward) on modelled trunks and limbs: Italian cypress (narrow spindle), umbrella/stone pine (bare leaning trunk, forked limbs, flat crown), olive (2-3 gnarled stems, grey-green), broadleaf, maquis shrub, grass tuft; instanced with Geometry Nodes in scenes. Shapes are stylised from the living species; leaves are not botanically modelled.",
+  "references": [
+    "Pliny the Elder, Naturalis Historia XVI (trees)"
+  ],
+  "estimated_parts": [
+    "cypress",
+    "stone pine",
+    "olive",
+    "broadleaf",
+    "shrub"
+  ],
+  "preview_image": "data/assets/mediterranean_trees/preview.jpg",
+  "file_path": "data/assets/mediterranean_trees/asset.blend"
+}

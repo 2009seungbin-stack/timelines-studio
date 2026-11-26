@@ -1,0 +1,36 @@
+{
+  "asset_id": "domed_basilica_church",
+  "name": "Centrally domed basilica church (SPECULATIVE 1000 CE type)",
+  "historical_period": "hypothetical, c. 1000 CE (precedent 537 CE)",
+  "geographic_region": "alternate-history western Roman city",
+  "category": "religious",
+  "polygon_count": 9233,
+  "material_list": [
+    "TL_Brick",
+    "TL_Dark",
+    "TL_Lead",
+    "TL_Marble",
+    "TL_PlasterPlain",
+    "TL_Tile",
+    "TL_TravertineSlabs"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "SPECULATION. A scaled-down western counterpart of the domed basilica type: central dome (22 m) on a ring of windows, east and west half domes, aisles with galleries, buttress piers, narthex and colonnaded atrium. Precedent: Hagia Sophia, Constantinople (537 CE; dome c. 31 m). The existence of such a building in a western city is hypothetical; all dimensions are estimates; lead roofing follows the Hagia Sophia precedent.",
+  "references": [
+    "Hagia Sophia, Constantinople (532-537 CE)",
+    "Procopius, De aedificiis I.1 (description of Hagia Sophia)"
+  ],
+  "estimated_parts": [
+    "atrium with porticoes",
+    "narthex",
+    "aisles with two window tiers",
+    "buttress piers",
+    "windowed drum",
+    "central dome",
+    "two half domes",
+    "apse"
+  ],
+  "preview_image": "data/assets/domed_basilica_church/preview.jpg",
+  "file_path": "data/assets/domed_basilica_church/asset.blend"
+}

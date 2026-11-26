@@ -1,0 +1,34 @@
+{
+  "asset_id": "roman_insula_block",
+  "name": "Insula (multi-storey apartment block with shops)",
+  "historical_period": "1st - 5th c. CE (taller variant: hypothetical 1000 CE)",
+  "geographic_region": "Roman Italy (Ostia type)",
+  "category": "residential",
+  "polygon_count": 3283,
+  "material_list": [
+    "TL_Dark",
+    "TL_Plaster",
+    "TL_PlasterWall",
+    "TL_ShopDark",
+    "TL_Shutter",
+    "TL_Terracotta",
+    "TL_Tile",
+    "TL_TimberDark",
+    "TL_Travertine",
+    "TL_TravertineSlabs"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Ground-floor tabernae and upper flats around a light court, as at Ostia. v2 (2026-11-26): street facades are modelled - shop openings 2.3-3.0 m wide and 1.7 m deep (some with masonry counters, shutter boards or amphorae), stair doors, windows recessed 0.3 m with sills and open/closed timber shutters, string course, two-step eave cornice, timber balconies (maeniana) on joists or tile pent roofs on brackets; roofs carry modelled imbrices and ridge tiles; long blocks split into two masses of different height; plaster palette (ochre, cream, faded red, grey) with brick showing through. Party walls and light-court walls keep shaded (not modelled) windows. ESTIMATES: floor heights (3.7-4.3 m ground, 2.9-3.3 m upper), opening sizes and rhythms, balcony depth (1.15 m).",
+  "references": [
+    "Ostia Antica insulae (e.g. Casa di Diana, 2nd c. CE)"
+  ],
+  "estimated_parts": [
+    "street facades with shops",
+    "light court",
+    "inward/outward pitched tile roof",
+    "timber balcony"
+  ],
+  "preview_image": "data/assets/roman_insula_block/preview.jpg",
+  "file_path": "data/assets/roman_insula_block/asset.blend"
+}

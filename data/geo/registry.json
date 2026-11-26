@@ -1,0 +1,636 @@
+[
+ {
+  "id": "ne_land_50m",
+  "file": "basemap/ne_50m_land.geojson",
+  "kind": "basemap",
+  "period": "modern",
+  "description": "Natural Earth 1:50m land polygons.",
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson",
+  "license": "Public domain (Natural Earth terms of use)",
+  "attribution": "Not required; suggested: Made with Natural Earth.",
+  "commercial_use": "yes",
+  "feature_properties": {
+   "featurecla": "Land",
+   "scalerank": "int"
+  },
+  "accuracy_note": "Modern coastlines; ancient coastlines differ (Po delta, Rhone delta, Nile delta, Black Sea/Azov, Dutch coast, head of the Adriatic). For high zoom use AWMC physical data (ODbL).",
+  "license_file": "lic/NaturalEarth_LICENSE.md"
+ },
+ {
+  "id": "ne_coastline_50m",
+  "file": "basemap/ne_50m_coastline.geojson",
+  "kind": "basemap",
+  "period": "modern",
+  "description": "Natural Earth 1:50m coastline lines.",
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_coastline.geojson",
+  "license": "Public domain (Natural Earth terms of use)",
+  "attribution": "Not required; suggested: Made with Natural Earth.",
+  "commercial_use": "yes",
+  "feature_properties": {
+   "featurecla": "Coastline",
+   "scalerank": "int"
+  },
+  "accuracy_note": "Modern.",
+  "license_file": "lic/NaturalEarth_LICENSE.md"
+ },
+ {
+  "id": "ne_rivers_50m",
+  "file": "basemap/ne_50m_rivers_lake_centerlines.geojson",
+  "kind": "basemap",
+  "period": "modern",
+  "description": "Natural Earth 1:50m rivers and lake centerlines.",
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_rivers_lake_centerlines.geojson",
+  "license": "Public domain (Natural Earth terms of use)",
+  "attribution": "Not required; suggested: Made with Natural Earth.",
+  "commercial_use": "yes",
+  "feature_properties": {
+   "name": "river name (e.g. Rhine, Danube, Nile, Tiber - check per feature)",
+   "featurecla": "River / Lake Centerline"
+  },
+  "accuracy_note": "Modern courses; deltas and some channels differ from antiquity.",
+  "license_file": "lic/NaturalEarth_LICENSE.md"
+ },
+ {
+  "id": "ne_lakes_50m",
+  "file": "basemap/ne_50m_lakes.geojson",
+  "kind": "basemap",
+  "period": "modern",
+  "description": "Natural Earth 1:50m lakes.",
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_lakes.geojson",
+  "license": "Public domain (Natural Earth terms of use)",
+  "attribution": "Not required; suggested: Made with Natural Earth.",
+  "commercial_use": "yes",
+  "feature_properties": {
+   "name": "lake name",
+   "featurecla": "Lake"
+  },
+  "accuracy_note": "Modern; e.g. Aral Sea has shrunk since antiquity.",
+  "license_file": "lic/NaturalEarth_LICENSE.md"
+ },
+ {
+  "id": "awmc_117",
+  "file": "historical/awmc_roman_empire_ce_117_extent.geojson",
+  "kind": "historical",
+  "period": "c. 117 CE (Trajan, greatest extent)",
+  "description": "AWMC political shading: Roman Empire extent at 117 CE. 112 polygon pieces (mainland + islands); no names.",
+  "source_url": "https://github.com/AWMC/geodata/tree/master/Cultural-Data/political_shading/roman_empire_ce_117_extent",
+  "license": "ODC Open Database License (ODbL) 1.0; underlying data derived from the Barrington Atlas of the Greek and Roman World and AWMC modifications of OpenStreetMap (also ODbL)",
+  "attribution": "Required: credit 'Ancient World Mapping Center (awmc.unc.edu), ODbL 1.0' and keep a notice that the work uses the database (e.g. video description / end card: 'Map data: AWMC, ODbL 1.0, derived from the Barrington Atlas').",
+  "commercial_use": "yes",
+  "commercial_use_conditions": "ODbL allows commercial use. A rendered video/image is a 'Produced Work' (no share-alike; attribution notice required). If the GeoJSON itself is modified and redistributed or made publicly available as a database, that adapted database must be offered under ODbL (share-alike). Keep pipeline GeoJSON private or ship it under ODbL.",
+  "feature_properties": {
+   "OBJECTID": "int (1..)",
+   "NEWDIO_": "int",
+   "AREA": "float deg2",
+   "note": "no NAME property"
+  },
+  "feature_filter": "ALL features = Roman Empire at 117 CE (union of the 112 pieces; bbox lon -9.5..43.8, lat 22.9..55.2).",
+  "accuracy_note": "Scholarly (Barrington Atlas based) but approximate; eastern conquests (Armenia/Mesopotamia/Assyria) were short-lived.",
+  "license_file": "lic/AWMC_LICENSE.txt"
+ },
+ {
+  "id": "awmc_200",
+  "file": "historical/awmc_roman_empire_ce_200_extent.geojson",
+  "kind": "historical",
+  "period": "c. 200 CE",
+  "description": "AWMC extent at 200 CE (112 pieces); base for the derived 395 split.",
+  "source_url": "https://github.com/AWMC/geodata/tree/master/Cultural-Data/political_shading/roman_empire_ce_200_extent",
+  "license": "ODC Open Database License (ODbL) 1.0; underlying data derived from the Barrington Atlas of the Greek and Roman World and AWMC modifications of OpenStreetMap (also ODbL)",
+  "attribution": "Required: credit 'Ancient World Mapping Center (awmc.unc.edu), ODbL 1.0' and keep a notice that the work uses the database (e.g. video description / end card: 'Map data: AWMC, ODbL 1.0, derived from the Barrington Atlas').",
+  "commercial_use": "yes",
+  "commercial_use_conditions": "ODbL allows commercial use. A rendered video/image is a 'Produced Work' (no share-alike; attribution notice required). If the GeoJSON itself is modified and redistributed or made publicly available as a database, that adapted database must be offered under ODbL (share-alike). Keep pipeline GeoJSON private or ship it under ODbL.",
+  "feature_properties": {
+   "OBJECTID": "int",
+   "NEWDIO_": "int"
+  },
+  "feature_filter": "ALL features = Roman Empire c. 200 CE.",
+  "accuracy_note": "Only roughly the late empire (Dacia lost c. 271, Agri Decumates earlier).",
+  "license_file": "lic/AWMC_LICENSE.txt"
+ },
+ {
+  "id": "awmc_post_diocletian_provinces",
+  "file": "historical/awmc_roman_empire_provinces_post_diocletian.geojson",
+  "kind": "historical",
+  "period": "c. 300+ CE (post-Diocletian provinces)",
+  "description": "AWMC province boundary LINES (96 LineStrings) after Diocletian's reorganisation.",
+  "source_url": "https://github.com/AWMC/geodata/tree/master/Cultural-Data/political_shading/roman_empire_provinces%20post_diocletian",
+  "license": "ODC Open Database License (ODbL) 1.0; underlying data derived from the Barrington Atlas of the Greek and Roman World and AWMC modifications of OpenStreetMap (also ODbL)",
+  "attribution": "Required: credit 'Ancient World Mapping Center (awmc.unc.edu), ODbL 1.0' and keep a notice that the work uses the database (e.g. video description / end card: 'Map data: AWMC, ODbL 1.0, derived from the Barrington Atlas').",
+  "commercial_use": "yes",
+  "commercial_use_conditions": "ODbL allows commercial use. A rendered video/image is a 'Produced Work' (no share-alike; attribution notice required). If the GeoJSON itself is modified and redistributed or made publicly available as a database, that adapted database must be offered under ODbL (share-alike). Keep pipeline GeoJSON private or ship it under ODbL.",
+  "feature_properties": {
+   "Id": "int only; lines, no names"
+  },
+  "feature_filter": "All = province borders (no East/West attribution).",
+  "accuracy_note": "Lines only, unlabelled; usable as a thin border overlay, not for East/West fills.",
+  "license_file": "lic/AWMC_LICENSE.txt"
+ },
+ {
+  "id": "derived_395_west_east",
+  "file": "historical/derived_395_west_east_approx.geojson",
+  "kind": "historical",
+  "period": "c. 395-400 CE (approximate)",
+  "description": "DERIVED by us: AWMC 200 CE extent split by a hand-drawn line (Drina/Illyricum boundary; Tripolitania west, Cyrenaica east). 2 features.",
+  "source_url": "derived from https://github.com/AWMC/geodata roman_empire_ce_200_extent",
+  "license": "ODbL 1.0 (derived database; share-alike applies if this file is redistributed)",
+  "attribution": "Required: credit 'Ancient World Mapping Center (awmc.unc.edu), ODbL 1.0' and keep a notice that the work uses the database (e.g. video description / end card: 'Map data: AWMC, ODbL 1.0, derived from the Barrington Atlas'). Split line by TIMELINES Studio, approximate.",
+  "commercial_use": "yes",
+  "commercial_use_conditions": "ODbL allows commercial use. A rendered video/image is a 'Produced Work' (no share-alike; attribution notice required). If the GeoJSON itself is modified and redistributed or made publicly available as a database, that adapted database must be offered under ODbL (share-alike). Keep pipeline GeoJSON private or ship it under ODbL.",
+  "feature_properties": {
+   "ENTITY": "WESTERN_EMPIRE_395_APPROX | EASTERN_EMPIRE_395_APPROX",
+   "NAME": "Western Roman Empire (approx.) | Eastern Roman Empire (approx.)"
+  },
+  "feature_filter": "properties.ENTITY == 'WESTERN_EMPIRE_395_APPROX' (west) / 'EASTERN_EMPIRE_395_APPROX' (east)",
+  "accuracy_note": "Territory is c. 200 CE, not 395; split line approximate (Sirmium was West in 395). Fine for a 60-90 s MVP; replace with a researched polygon later.",
+  "license_file": "lic/AWMC_LICENSE.txt"
+ },
+ {
+  "id": "oured_100",
+  "file": "historical/world_100.geojson",
+  "kind": "historical",
+  "period": "year 100 CE",
+  "description": "aourednik/historical-basemaps world_100 (whole world). Evaluation copy.",
+  "source_url": "https://github.com/aourednik/historical-basemaps/blob/master/geojson/world_100.geojson",
+  "license": "GNU GPL v3.0 (repository LICENSE file; README gives no data-specific licence)",
+  "attribution": "Credit 'aourednik/historical-basemaps' if ever used.",
+  "commercial_use": "unclear",
+  "commercial_use_conditions": "GPLv3 is a software licence; applied to data it is ambiguous. Showing a rendered map in a video is probably not 'conveying a covered work', but redistributing the GeoJSON or derived geometry would require GPL terms, and the repository does not state provenance of the borders. Kept only as a comparison/evaluation copy; do not use in a published video until the licence question is settled (e.g. ask the author for explicit data licensing).",
+  "feature_properties": {
+   "NAME": "polity name e.g. 'Roman Empire'",
+   "SUBJECTO": "overlord polity",
+   "PARTOF": "group",
+   "ABBREVN": "short name",
+   "BORDERPRECISION": "1 = approximate"
+  },
+  "feature_filter": [
+   {
+    "layer": "Roman Empire c.100",
+    "filter": "NAME == 'Roman Empire' (also NAME 'Bosporian Kingdom' has SUBJECTO 'Roman Empire')",
+    "features": [
+     {
+      "index": 145,
+      "NAME": "Dacia",
+      "SUBJECTO": "Dacia",
+      "PARTOF": "Dacia",
+      "bbox_lonlat": [
+       21.7,
+       43.8,
+       27.3,
+       47.7
+      ]
+     },
+     {
+      "index": 147,
+      "NAME": "Armenia",
+      "SUBJECTO": "Armenia",
+      "PARTOF": "Armenia",
+      "bbox_lonlat": [
+       41.7,
+       38.0,
+       49.7,
+       41.9
+      ]
+     },
+     {
+      "index": 148,
+      "NAME": "Bosporian Kingdom",
+      "SUBJECTO": "Roman Empire",
+      "PARTOF": "Bosporian Kingdom",
+      "bbox_lonlat": [
+       33.4,
+       44.5,
+       36.5,
+       45.4
+      ]
+     },
+     {
+      "index": 149,
+      "NAME": "Parthian Empire",
+      "SUBJECTO": "Parthian Empire",
+      "PARTOF": "Parthian Empire",
+      "bbox_lonlat": [
+       41.4,
+       25.3,
+       62.8,
+       38.9
+      ]
+     },
+     {
+      "index": 150,
+      "NAME": "Roman Empire",
+      "SUBJECTO": "Roman Empire",
+      "PARTOF": "Roman Empire",
+      "bbox_lonlat": [
+       -9.5,
+       22.7,
+       48.3,
+       54.9
+      ]
+     }
+    ]
+   }
+  ],
+  "accuracy_note": "BORDERPRECISION is 1 (rough) for all; README: work in progress, verify before use. 'Roman Empire' bbox lon -9.5..48.3.",
+  "license_file": "lic/historical-basemaps_LICENSE.txt"
+ },
+ {
+  "id": "oured_400",
+  "file": "historical/world_400.geojson",
+  "kind": "historical",
+  "period": "year 400 CE",
+  "description": "aourednik world_400 (whole world). Evaluation copy; the only dataset with named Western/Eastern polygons.",
+  "source_url": "https://github.com/aourednik/historical-basemaps/blob/master/geojson/world_400.geojson",
+  "license": "GNU GPL v3.0",
+  "attribution": "Credit 'aourednik/historical-basemaps' if ever used.",
+  "commercial_use": "unclear",
+  "commercial_use_conditions": "GPLv3 is a software licence; applied to data it is ambiguous. Showing a rendered map in a video is probably not 'conveying a covered work', but redistributing the GeoJSON or derived geometry would require GPL terms, and the repository does not state provenance of the borders. Kept only as a comparison/evaluation copy; do not use in a published video until the licence question is settled (e.g. ask the author for explicit data licensing).",
+  "feature_properties": {
+   "NAME": "polity name",
+   "SUBJECTO": "overlord",
+   "PARTOF": "group"
+  },
+  "feature_filter": [
+   {
+    "layer": "Western / Eastern Empire",
+    "filter": "NAME == 'Western Roman Empire' / NAME == 'Eastern Roman Empire'",
+    "features": [
+     {
+      "index": 146,
+      "NAME": "Visigoths",
+      "SUBJECTO": "Visigoths",
+      "PARTOF": "Visigoths",
+      "bbox_lonlat": [
+       19.3,
+       38.3,
+       22.3,
+       41.6
+      ]
+     },
+     {
+      "index": 147,
+      "NAME": "Persia",
+      "SUBJECTO": "Persi",
+      "PARTOF": "Persia",
+      "bbox_lonlat": [
+       37.9,
+       25.3,
+       62.8,
+       41.9
+      ]
+     },
+     {
+      "index": 149,
+      "NAME": "Western Roman Empire",
+      "SUBJECTO": "Western Roman Empire",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       -9.5,
+       29.4,
+       20.7,
+       53.6
+      ]
+     },
+     {
+      "index": 150,
+      "NAME": "Eastern Roman Empire",
+      "SUBJECTO": "Eastern Roman Empire",
+      "PARTOF": "Eastern Roman Empire",
+      "bbox_lonlat": [
+       19.2,
+       22.7,
+       41.7,
+       45.5
+      ]
+     },
+     {
+      "index": 153,
+      "NAME": "Alamans",
+      "SUBJECTO": "Alamans",
+      "PARTOF": "Alamans",
+      "bbox_lonlat": [
+       7.7,
+       48.1,
+       10.0,
+       49.4
+      ]
+     },
+     {
+      "index": 154,
+      "NAME": "Ostrogoths",
+      "SUBJECTO": "Hunnic Empire",
+      "PARTOF": "Ostrogoths",
+      "bbox_lonlat": [
+       28.2,
+       45.4,
+       32.0,
+       47.9
+      ]
+     },
+     {
+      "index": 156,
+      "NAME": "Hunnic Empire",
+      "SUBJECTO": "Hunnic Empire",
+      "PARTOF": "Hunnic Empire",
+      "bbox_lonlat": [
+       22.7,
+       44.5,
+       49.4,
+       52.8
+      ]
+     },
+     {
+      "index": 158,
+      "NAME": "Gepids",
+      "SUBJECTO": "Hunnic Empire",
+      "PARTOF": "Gepids",
+      "bbox_lonlat": [
+       24.0,
+       49.4,
+       26.9,
+       50.9
+      ]
+     },
+     {
+      "index": 358,
+      "NAME": "Franks",
+      "SUBJECTO": "Franks",
+      "PARTOF": "Franks",
+      "bbox_lonlat": [
+       5.7,
+       50.9,
+       7.8,
+       52.2
+      ]
+     },
+     {
+      "index": 360,
+      "NAME": "Burgundians",
+      "SUBJECTO": "Burgundians",
+      "PARTOF": "Burgundians",
+      "bbox_lonlat": [
+       7.3,
+       49.7,
+       9.2,
+       50.8
+      ]
+     }
+    ]
+   }
+  ],
+  "accuracy_note": "Rough. 'Visigoths' here sits in the Balkans (lon 19-22); 'Franks' is a tiny Rhine-mouth shape. West bbox lon -9.5..20.7; East 19.2..41.7.",
+  "license_file": "lic/historical-basemaps_LICENSE.txt"
+ },
+ {
+  "id": "oured_500",
+  "file": "historical/world_500.geojson",
+  "kind": "historical",
+  "period": "year 500 CE",
+  "description": "aourednik world_500 (whole world). Evaluation copy; the ONLY geometry found for successor kingdoms c. 476-500.",
+  "source_url": "https://github.com/aourednik/historical-basemaps/blob/master/geojson/world_500.geojson",
+  "license": "GNU GPL v3.0",
+  "attribution": "Credit 'aourednik/historical-basemaps' if ever used.",
+  "commercial_use": "unclear",
+  "commercial_use_conditions": "GPLv3 is a software licence; applied to data it is ambiguous. Showing a rendered map in a video is probably not 'conveying a covered work', but redistributing the GeoJSON or derived geometry would require GPL terms, and the repository does not state provenance of the borders. Kept only as a comparison/evaluation copy; do not use in a published video until the licence question is settled (e.g. ask the author for explicit data licensing).",
+  "feature_properties": {
+   "NAME": "polity name",
+   "SUBJECTO": "overlord",
+   "PARTOF": "group"
+  },
+  "feature_filter": [
+   {
+    "layer": "Eastern Empire + successors c.500",
+    "filter": "NAME in {'Eastern Roman Empire','Ostrogoths','Visigoths','Vandals','Burgundians','Franks','Suebi','Anglo-Saxons','Saxons','Basques','Armorica','Turingians'}; Franks has several pieces (use all with NAME=='Franks')",
+    "features": [
+     {
+      "index": 23,
+      "NAME": "Eastern Roman Empire",
+      "SUBJECTO": "Eastern Roman Empire",
+      "PARTOF": "Eastern Roman Empire",
+      "bbox_lonlat": [
+       18.6,
+       23.8,
+       41.7,
+       45.5
+      ]
+     },
+     {
+      "index": 31,
+      "NAME": "Sasanian Empire",
+      "SUBJECTO": "Sasanian Empire",
+      "PARTOF": "Sasanian Empire",
+      "bbox_lonlat": [
+       38.4,
+       25.0,
+       71.6,
+       42.2
+      ]
+     },
+     {
+      "index": 138,
+      "NAME": "Western Roman Empire",
+      "SUBJECTO": "Western Roman Empire",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       -5.8,
+       50.0,
+       -2.1,
+       54.9
+      ]
+     },
+     {
+      "index": 140,
+      "NAME": "Suebi",
+      "SUBJECTO": "Suebi",
+      "PARTOF": "Suebi",
+      "bbox_lonlat": [
+       -9.3,
+       39.6,
+       -4.8,
+       43.7
+      ]
+     },
+     {
+      "index": 141,
+      "NAME": "Basques",
+      "SUBJECTO": "Basques",
+      "PARTOF": "Basques",
+      "bbox_lonlat": [
+       -5.8,
+       41.8,
+       0.6,
+       43.7
+      ]
+     },
+     {
+      "index": 142,
+      "NAME": "Anglo-Saxons",
+      "SUBJECTO": "Anglo-Saxons",
+      "PARTOF": "Anglo-Saxons",
+      "bbox_lonlat": [
+       -2.3,
+       50.6,
+       1.7,
+       55.0
+      ]
+     },
+     {
+      "index": 143,
+      "NAME": "Turingians",
+      "SUBJECTO": "Turingians",
+      "PARTOF": "Turingians",
+      "bbox_lonlat": [
+       7.2,
+       48.4,
+       11.4,
+       52.2
+      ]
+     },
+     {
+      "index": 144,
+      "NAME": "Ostrogoths",
+      "SUBJECTO": "",
+      "PARTOF": "",
+      "bbox_lonlat": [
+       4.3,
+       37.9,
+       19.1,
+       49.1
+      ]
+     },
+     {
+      "index": 145,
+      "NAME": "Burgundians",
+      "SUBJECTO": "Burgundians",
+      "PARTOF": "Burgundians",
+      "bbox_lonlat": [
+       3.6,
+       44.2,
+       10.8,
+       48.0
+      ]
+     },
+     {
+      "index": 150,
+      "NAME": "Saxons",
+      "SUBJECTO": "Saxons",
+      "PARTOF": "Saxons",
+      "bbox_lonlat": [
+       3.5,
+       50.7,
+       10.9,
+       57.8
+      ]
+     },
+     {
+      "index": 151,
+      "NAME": "Western Roman Empire",
+      "SUBJECTO": "Western Roman Empire",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       7.4,
+       48.9,
+       7.4,
+       48.9
+      ]
+     },
+     {
+      "index": 152,
+      "NAME": "Armorica",
+      "SUBJECTO": "Armorica",
+      "PARTOF": "Armorica",
+      "bbox_lonlat": [
+       -4.8,
+       47.2,
+       -1.7,
+       48.9
+      ]
+     },
+     {
+      "index": 154,
+      "NAME": "Vandals",
+      "SUBJECTO": "Vandals",
+      "PARTOF": "Vandals",
+      "bbox_lonlat": [
+       0.2,
+       29.4,
+       18.6,
+       43.0
+      ]
+     },
+     {
+      "index": 200,
+      "NAME": "Franks",
+      "SUBJECTO": "Franks",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       7.4,
+       48.9,
+       7.4,
+       48.9
+      ]
+     },
+     {
+      "index": 201,
+      "NAME": "Franks",
+      "SUBJECTO": "Franks",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       -2.4,
+       46.3,
+       9.5,
+       52.1
+      ]
+     },
+     {
+      "index": 202,
+      "NAME": "Franks",
+      "SUBJECTO": "Franks",
+      "PARTOF": "Western Roman Empire",
+      "bbox_lonlat": [
+       7.4,
+       48.9,
+       7.4,
+       48.9
+      ]
+     },
+     {
+      "index": 203,
+      "NAME": "Visigoths",
+      "SUBJECTO": "Visigoths",
+      "PARTOF": "Visigoths",
+      "bbox_lonlat": [
+       -9.5,
+       36.0,
+       4.5,
+       46.4
+      ]
+     }
+    ]
+   }
+  ],
+  "accuracy_note": "Rough. The two 'Western Roman Empire' features at 500 are small remnants (one at lon -5.8..-2.1 lat 50..54.9, i.e. not Gaul - likely mis-attributed). Franks pieces 200-202 carry PARTOF 'Western Roman Empire'. Ostrogoths covers Italy+Dalmatia+Provence+Pannonia.",
+  "license_file": "lic/historical-basemaps_LICENSE.txt"
+ },
+ {
+  "id": "cities",
+  "file": "cities.json",
+  "kind": "gazetteer",
+  "period": "antiquity (point locations)",
+  "description": "18 points (Rome, Constantinople, Ravenna, Milan, Carthage, Alexandria, Antioch, London, Lyon, Trier, Toledo, Toulouse, Marseille, Arles, Sirmium, Thessalonica, Jerusalem, Barbegal) with Pleiades id, lon/lat, precision.",
+  "source_url": "https://pleiades.stoa.org/",
+  "license": "CC BY 3.0 (place record rights field: Copyright The Contributors, CC Attribution 3.0)",
+  "attribution": "Required: 'Pleiades: A Gazetteer of Past Places (pleiades.stoa.org), CC BY 3.0', crediting contributors.",
+  "commercial_use": "yes",
+  "feature_properties": {
+   "id": "pleiades_<id>",
+   "name_en": "label",
+   "name_ancient": "Latin/Greek",
+   "pleiades_id": "int",
+   "lon": "WGS84",
+   "lat": "WGS84",
+   "location_precision": "precise | related"
+  },
+  "accuracy_note": "Rome, Constantinople, Trier have precision 'related' (modern-city point). Pleiades titles: Milan='Mediolan(i)um' 383706, Lyon='Col. Lugdunum', Trier='Col. Augusta Treverorum', Antioch='Antiochia/Theoupolis', Arles='Theline/Col. Arelate/Constantina'.",
+  "license_file": null
+ }
+]

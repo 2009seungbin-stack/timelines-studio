@@ -1,0 +1,37 @@
+{
+  "asset_id": "roman_domus",
+  "name": "Domus (atrium-peristyle house with street shops)",
+  "historical_period": "2nd c. BCE - 5th c. CE",
+  "geographic_region": "Roman Italy",
+  "category": "residential",
+  "polygon_count": 5120,
+  "material_list": [
+    "TL_Dark",
+    "TL_Garden",
+    "TL_Marble",
+    "TL_PlasterPlain",
+    "TL_PlasterWall",
+    "TL_ShopDark",
+    "TL_Shutter",
+    "TL_Terracotta",
+    "TL_Tile",
+    "TL_TimberDark",
+    "TL_Travertine",
+    "TL_TravertineSlabs"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Atrium with compluvium roof and impluvium at the front, peristyle garden with a low colonnade and a basin at the back; v2: street front modelled with a central entrance (fauces) flanked by shops, small high windows on the flanks. Proportions are estimated; no interiors.",
+  "references": [
+    "Vitruvius, De architectura (c. 30-15 BCE), Book VI (private houses)",
+    "Pompeii, House of the Faun (atrium-peristyle plan)"
+  ],
+  "estimated_parts": [
+    "street walls with shops",
+    "compluviate atrium roof",
+    "peristyle colonnade",
+    "garden"
+  ],
+  "preview_image": "data/assets/roman_domus/preview.jpg",
+  "file_path": "data/assets/roman_domus/asset.blend"
+}

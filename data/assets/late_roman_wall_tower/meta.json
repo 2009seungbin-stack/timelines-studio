@@ -1,0 +1,28 @@
+{
+  "asset_id": "late_roman_wall_tower",
+  "name": "Late Roman curtain wall with projecting towers",
+  "historical_period": "3rd - 6th c. CE",
+  "geographic_region": "Roman Empire",
+  "category": "military",
+  "polygon_count": 1612,
+  "material_list": [
+    "TL_Ashlar",
+    "TL_Brick",
+    "TL_Dark",
+    "TL_Tile"
+  ],
+  "license": "original procedural geometry (TIMELINES Studio); materials use CC0 Poly Haven textures, see data/textures/LICENSES.json",
+  "source": "procedural bpy generator tl_buildings.py / tl_nature.py (via build_assets.py)",
+  "historical_accuracy_notes": "Brick-faced wall (~8.5 m) on a stone footing with merlons and square projecting towers with upper chambers, comparable in type to the Aurelian Walls. Tower spacing (~35 m) and heights are estimates.",
+  "references": [
+    "Aurelian Walls, Rome (271-275 CE)"
+  ],
+  "estimated_parts": [
+    "stone footing",
+    "brick curtain wall",
+    "merlons",
+    "square towers with tiled roofs"
+  ],
+  "preview_image": "data/assets/late_roman_wall_tower/preview.jpg",
+  "file_path": "data/assets/late_roman_wall_tower/asset.blend"
+}
